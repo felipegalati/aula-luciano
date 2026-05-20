@@ -75,7 +75,7 @@ function interagir() {
         popup.appendChild(escudo);
 
         const btnFechar = document.createElement("button");
-        btnFechar.innerText = "Parar com isso!";
+        btnFechar.innerText = "Parar";
         btnFechar.style.display = "block";
         btnFechar.style.margin = "20px auto 0 auto";
         btnFechar.style.color = "red";
