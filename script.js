@@ -42,7 +42,7 @@ function interagir() {
     }
 
     if (!hinoAudio) {
-        hinoAudio = new Audio("assets/hino.mp3"); 
+        hinoAudio = new Audio("assets/hinov2.mp3"); 
         hinoAudio.loop = true;
     }
 
@@ -71,7 +71,7 @@ function interagir() {
         const escudo = document.createElement("img");
         escudo.src = "assets/escudo.png"; 
         escudo.alt = "Escudo do Palmeiras";
-        escudo.style.width = "300px";
+        escudo.style.width = "500px";
         popup.appendChild(escudo);
 
         const btnFechar = document.createElement("button");
