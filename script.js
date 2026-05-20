@@ -85,7 +85,7 @@ function interagir() {
             hinoAudio.pause();
             hinoAudio.currentTime = 0;
             popup.style.display = "none";
-            document.body.classList.remove("tema-palmeiras"); // Remove o tema e volta ao normal
+            document.body.classList.remove("tema-palmeiras");
         };
         
         popup.appendChild(btnFechar);
